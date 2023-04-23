@@ -23,14 +23,16 @@
       institution: Google
       year: Summer 2021, 2022
       descrption:
-        - Caching (Punctual/Tango)
-        - Indexing
+        - contents:
+            - Caching (Punctual/Tango)
+            - Indexing
 
     - title: Software Development Engineering Intern
       institution: AWS
       year: Summer 2019
       descrption:
-        - EC2 Networking
+        - contents:
+            - EC2 Networking
 
     - title: Software Development Intern
       institution: Houzz
