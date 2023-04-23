@@ -76,24 +76,10 @@
                 <a class="nav-link" href="/publications/">publications<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
-              </li>
-              <li class="nav-item ">
                 <a class="nav-link" href="/repositories/">repositories</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/cv/">cv</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">teaching</a>
-              </li>
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/publications/">publications</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/projects/">projects</a>
-                </div>
               </li>
 
               <!-- Toogle theme mode -->
@@ -130,20 +116,168 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
-  <h2 class="year">1967</h2>
-  <ol class="bibliography"></ol>
+  <h2 class="year">2023</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">EuroSys</abbr></div>
 
-  <h2 class="year">1956</h2>
-  <ol class="bibliography"></ol>
+        <!-- Entry bib key -->
+        <div id="tang23" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Fail through the Cracks: Cross-System Interaction Failures in Modern Cloud Systems</div>
+        <!-- Author -->
+        <div class="author">
+        
 
-  <h2 class="year">1950</h2>
-  <ol class="bibliography"></ol>
+        <em>Lilia Tang</em>, Chaitanya Bhandari, Yongle Zhang, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '4 more authors' ? 'Anna Karanika, Shuyang Ji, Indranil Gupta, Tianyin Xu' : '4 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">4 more authors</span>
+</div>
 
-  <h2 class="year">1935</h2>
-  <ol class="bibliography"></ol>
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In To appear in Eighteenth European Conference on Computer Systems (EuroSys ’23), May 8–12, 2023, Rome, Italy</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
 
-  <h2 class="year">1905</h2>
-  <ol class="bibliography"></ol>
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1145/3552326.3587448"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3552326.3587448" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">HotOS</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="sun21" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Reasoning about Modern Datacenter Infrastructures Using Partial Histories</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Xudong Sun, Lalith Suresh, Aishwarya Ganesan, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '4 more authors' ? 'Ramnatthan Alagappan, Michael Gasch, Lilia Tang, Tianyin Xu' : '4 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">4 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the Workshop on Hot Topics in Operating Systems</em>, 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1145/3458336.3465276"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3458336.3465276" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Modern datacenter infrastructures are increasingly architected as a cluster of loosely coupled services. The cluster states are typically maintained in a logically centralized, strongly consistent data store (e.g., ZooKeeper, Chubby and etcd), while the services learn about the evolving state by reading from the data store, or via a stream of notifications. However, it is challenging to ensure services are correct, even in the presence of failures, networking issues, and the inherent asynchrony of the distributed system. In this paper, we identify that partial histories can be used to effectively reason about correctness for individual services in such distributed infrastructure systems. That is, individual services make decisions based on observing only a subset of changes to the world around them. We show that partial histories, when applied to distributed infrastructures, have immense explanatory power and utility over the state of the art. We discuss the implications of partial histories and sketch tooling for reasoning about distributed infrastructure systems.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2018</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ATC</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="jiang18" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Mainstream: Dynamic Stem-Sharing for Multi-Tenant Video Processing</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Angela H. Jiang, Daniel L.-K. Wong, Christopher Canel, and
+          <span class="more-authors" title="click to view 7 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '7 more authors' ? 'Lilia Tang, Ishan Misra, Michael Kaminsky, Michael A. Kozuch, Padmanabhan Pillai, David G. Andersen, Gregory R. Ganger' : '7 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">7 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In 2018 USENIX Annual Technical Conference (USENIX ATC 18)</em>, Jul 2018
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-isbn="978-1-931971-44-7"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
 
 
 </div>
