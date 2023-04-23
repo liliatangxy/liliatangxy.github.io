@@ -20,19 +20,12 @@
   type: time_table
   contents:
     - title: Software Engineering Intern
-      institution: Google
+      institution: Caching (Punctual/Tango) and Indexing at Google
       year: Summer 2021, 2022
-      descrption:
-        - contents:
-            - Caching (Punctual/Tango)
-            - Indexing
 
     - title: Software Development Engineering Intern
-      institution: AWS
+      institution: EC2 Networking at AWS
       year: Summer 2019
-      descrption:
-        - contents:
-            - EC2 Networking
 
     - title: Software Development Intern
       institution: Houzz
