@@ -24,14 +24,14 @@ publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3458336.3465276},
 doi = {10.1145/3458336.3465276},
-abstract = {Modern datacenter infrastructures are increasingly architected as a cluster of loosely coupled services. The cluster states are typically maintained in a logically centralized, strongly consistent data store (e.g., ZooKeeper, Chubby and etcd), while the services learn about the evolving state by reading from the data store, or via a stream of notifications. However, it is challenging to ensure services are correct, even in the presence of failures, networking issues, and the inherent asynchrony of the distributed system. In this paper, we identify that partial histories can be used to effectively reason about correctness for individual services in such distributed infrastructure systems. That is, individual services make decisions based on observing only a subset of changes to the world around them. We show that partial histories, when applied to distributed infrastructures, have immense explanatory power and utility over the state of the art. We discuss the implications of partial histories and sketch tooling for reasoning about distributed infrastructure systems.},
 booktitle = {Proceedings of the Workshop on Hot Topics in Operating Systems},
 pages = {213–220},
 numpages = {8},
 keywords = {correctness, distributed systems, datacenter infrastructure, partial history, reliability},
 location = {Ann Arbor, Michigan},
 series = {HotOS '21},
-selected = {true}
+selected = {true},
+pdf = {hotos21-s11-sun.pdf}
 }
 
 @inproceedings {jiang18,
