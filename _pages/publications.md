@@ -6,9 +6,6 @@ description: publications by categories in reversed chronological order. generat
 years: [1967, 1956, 1950, 1935, 1905]
 nav: true
 nav_order: 1
-scholar:
-  last_name: [Tang]
-  first_name: [Lilia]
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
