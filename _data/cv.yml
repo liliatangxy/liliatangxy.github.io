@@ -20,6 +20,10 @@
   type: time_table
   contents:
     - title: Software Engineering Intern
+      institution: Thrift at Meta
+      year: Summer 2023
+
+    - title: Software Engineering Intern
       institution: Caching (Punctual/Tango) and Indexing at Google
       year: Summer 2021, 2022
 
@@ -37,7 +41,7 @@
     - title: TA for CS 598FTS, Fault-Tolerant and Consistent Data Center Systems
       institution: UIUC
       year: Spring 2023
-    
+
     - title: TA for CS 427, Software Engineering I
       institution: UIUC
       year: Fall 2022
